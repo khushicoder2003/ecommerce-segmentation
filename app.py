@@ -37,6 +37,11 @@ if rfm is None:
 
 # ── Sidebar ───────────────────────────────────────────
 st.sidebar.header("Filters")
+segments = ['All'] + sorted(rfm['Segment'].unique().tolist())
+selected_segment = st.sidebar.selectbox("Customer Segment", segments)
+
+if selected_segment != 'All':
+    rfm = rfm[rfm['Segment'] == selected_segment]
 
 # ── Title ─────────────────────────────────────────────
 st.title("🛒 E-Commerce Sales & Customer Segmentation")
