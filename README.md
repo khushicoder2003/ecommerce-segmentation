@@ -5,8 +5,7 @@ A end-to-end data analytics project analyzing 1M+ retail transactions to uncover
 ---
 
 ## 📊 Live Dashboard
-🔗 [Coming soon — Streamlit deployment]
-
+🔗 [Live Dashboard](https://ecommerce-segmentation-wyppk4kv6fiayydtpez3bd.streamlit.app)
 ---
 
 ## 🎯 Project Objectives
